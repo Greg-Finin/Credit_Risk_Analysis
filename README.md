@@ -8,6 +8,7 @@ The purpose of this challenge was to experiment with a variety of different mach
 * Naive Random Oversampling 
 As you can see below, the precision of our Naive Random test is quite high. It does not perform as well in recall, where it is only .64. 
 ![Naive](Naive.png)
+![NaiveA](NaiveA.png)
 * Smote
 Here we see good precision as above, but here the recall is much higher at .90.
 ![Smote](Smote.png)
