@@ -16,4 +16,4 @@ The purpose of this challenge was to experiment with a variety of different mach
 * Balanced Random Forest
 ![BalancedForest](BalancedForest.png)
 * Ensemble
-![EEC](EEC.png)
+![ec](ec.png)
