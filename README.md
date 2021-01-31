@@ -8,22 +8,27 @@ The purpose of this challenge was to experiment with a variety of different mach
 * Naive Random Oversampling 
 As you can see below, the precision of our Naive Random test is quite high. It does not perform as well in recall, where it is only .64. 
 ![Naive](Naive.png)
-![NaiveA](NaiveA.png)
+![NaiveA](Accuracies/NaiveA.png)
 * Smote
 Here we see good precision as above, but here the recall is much higher at .90.
 ![Smote](Smote.png)
+![SmoteA](Accuracies/SmoteA.png)
 * Cluster Centroids
 Our Cluster Centroids model performs the best so far, with it having a .99 precision and .94 recall. 
 ![Clusters](Clusters.png)
+![ClustersA](Accuracies/ClusterA.png)
 * Smoteen
 The Smoteen model performs slightly less higher than the Cluster centroids, coming in with .94 precision and .89 recall. 
 ![Smoteen](Smoteen.png)
+![SmoteenA](Accuracies/SmoteenA.png)
 * Balanced Random Forest
 The Balanced Random Forest model has very high percision and recall, coming in at 1.00 and .91 respectively.
 ![BalancedForest](BalancedForest.png)
+![BalancedA](Accuracies/BalancedA.png)
 * Ensemble
 The Easy Ensemble model outperforms the Balanced forest by just a few points, with 1.0 percision andd .94 recall. 
 ![ec](ec.png)
+![EasyA](Accuracies/EasyA.png)
 * We also see that the accuracy scores for each test below the image of the classification report. The two highest percentages of are for the Ensemble method and the Cluster Centroid model. 
 
 ## Analysis
